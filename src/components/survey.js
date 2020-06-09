@@ -45,7 +45,7 @@ class User1 extends Component {
             <img className="ProjectPic" src={Pquestion} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
             <img className="ProjectPic" src={Ptired} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
             <img className="ProjectPic" src={Ptired} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
-            <img className="ProjectPic" src={Ptired} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
+            <img className="ProjectPic" src={Pquestion} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
           </div>
         </div>
         <div style={{display:'flex', justifyContent: 'center', height:'100vh'}}>
