@@ -60,16 +60,6 @@ class Project extends Component {
               <p className="ButtonStyle">Team projects</p></Link>
             <Link className="LinkStyle" >
               <p className="ButtonStyle">Team mood</p></Link>
-            <div className="TestBox">
-              <Link className="LinkStyle" to="/test.github.io/survey"><p className="TextBox">
-                <i class="fa fa-file-o" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Your Mood</p></Link>
-            </div>
-            <div className="TestBox"><p className="TextBox">
-              <i class="fa fa-file-o" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Team Survey</p>
-            </div>
-            <div className="TestBox"><p className="TextBox">
-              <i class="fa fa-file-o" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Private</p>
-            </div>
           </div>
           <div className="GridProjects">
             <div className="GPcombine GridTwo">
@@ -91,17 +81,14 @@ class Project extends Component {
               </div>
             </div>
             <div className="GPcombine GPLeft">
-                <div className="TestBox"><p className="TextBox">
-                  <i class="fa fa-coffee" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Coffee</p>
+                <div className="TestBox"><Link className="LinkStyle" to="/test.github.io/survey"><p className="TextBox">
+                  <i class="fa fa-file-o" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Your Mood</p></Link>
                 </div>
                 <div className="TestBox"><p className="TextBox">
-                  <i class="fa fa-comments" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Talk</p>
+                  <i class="fa fa-file-o" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Team Survey</p>
                 </div>
                 <div className="TestBox"><p className="TextBox">
-                  <i class="fa fa-exclamation" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Help</p>
-                </div>
-                <div className="TestBox"><p className="TextBox">
-                  <i class="fa fa-building" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>At the office</p>
+                  <i class="fa fa-file-o" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Private</p>
                 </div>
             </div>
             <div style={{padding:'1em'}}>
