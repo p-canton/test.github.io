@@ -13,12 +13,12 @@ class LandingPage extends Component {
       <div className="MainFormat">
         <div className="GridBar HidePC">
           <div className="PaddingBar" style={{textAlign:'center'}}>
-            <Link className="LinkStyle HidePC" to="/Mood.github.io/">
+            <Link className="LinkStyle HidePC" to="/test.github.io/">
               <p className="IconStyle"><i class="fa fa-home" aria-hidden="true"></i></p>
             </Link>
           </div>
           <div className="PaddingBar" style={{textAlign:'center'}}>
-            <Link className="LinkStyle HidePC" to="/Mood.github.io/profile">
+            <Link className="LinkStyle HidePC" to="/test.github.io/profile">
               <p className="IconStyle"><i class="fa fa-user" aria-hidden="true"></i></p>
             </Link>
           </div>
@@ -72,7 +72,7 @@ class LandingPage extends Component {
             </div>
             <div style={{padding:'1em'}}>
               <div className="ProjectBox">
-                <Link className="LinkStyle" to="/Mood.github.io/project"><img className="ProjectPic" src={Philips}/>
+                <Link className="LinkStyle" to="/test.github.io/project"><img className="ProjectPic" src={Philips}/>
                   <p className="ButtonSelec">Profile</p>
                 </Link>
               </div>

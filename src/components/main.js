@@ -13,11 +13,11 @@ const Main = () => (
   <>
   <ScrollToTop />
     <Switch>
-      <Route exact path="/Mood.github.io/" component={LandingPage}/>
-      <Route path="/Mood.github.io/project" component={Project} />
-      <Route path="/Mood.github.io/user1" component={User1} />
-      <Route path="/Mood.github.io/profile" component={Profile} />
-      <Route path="/Mood.github.io/survey" component={Survey} />
+      <Route exact path="/test.github.io/" component={LandingPage}/>
+      <Route path="/test.github.io/project" component={Project} />
+      <Route path="/test.github.io/user1" component={User1} />
+      <Route path="/test.github.io/profile" component={Profile} />
+      <Route path="/test.github.io/survey" component={Survey} />
     </Switch>
   </>
 )
