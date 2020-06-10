@@ -42,7 +42,7 @@ class LandingPage extends Component {
           <div className="SettingsBar HidePhone">
 
             <p className="ButtonSelec">Home</p>
-            <Link className="LinkStyle" >
+            <Link className="LinkStyle" to="/test.github.io/profile">
               <p className="ButtonStyle">Profile</p></Link>
             <Link className="LinkStyle" >
               <p className="ButtonStyle">Notifications</p></Link>

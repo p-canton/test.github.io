@@ -47,16 +47,16 @@ class Profile extends Component {
             <p className="ButtonStyle">Home</p></Link>
             <Link className="LinkStyle" to="/test.github.io/project">
               <p className="ButtonStyle">Profile</p></Link>
-            <Link className="LinkStyle" to="/test.github.io/project">
+            <Link className="LinkStyle" >
               <p className="ButtonStyle">Notifications</p></Link>
-            <Link className="LinkStyle" to="/test.github.io/project">
+            <Link className="LinkStyle">
               <p className="ButtonStyle">History</p></Link>
-            <Link className="LinkStyle" to="/test.github.io/project">
+            <Link className="LinkStyle" >
               <p className="ButtonStyle">Teammates</p></Link>
             <hr style={{width:'70%'}}/>
-            <Link className="LinkStyle" to="/test.github.io/">
+            <Link className="LinkStyle" >
               <p className="ButtonStyle">Contact</p></Link>
-            <Link className="LinkStyle" to="/test.github.io/">
+            <Link className="LinkStyle" to="/test.github.io/survey">
               <p className="ButtonStyle">Survey</p></Link>
           </div>
           <div className="GridProjects">

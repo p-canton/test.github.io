@@ -6,7 +6,7 @@
 .ProjectBox{
   width:100%;
   min-width:10vh;
-  height:25vh;
+  height:30vh;
   flex: auto ;
   border-radius: 1em;
   box-shadow: 1px -1px 5px #888888;
@@ -38,7 +38,7 @@
 .ProjectPic{
   width:100%;
   min-width:10vh;
-  height:25vh;
+  height:30vh;
   object-fit: cover;
   overflow: hidden;
   border-radius: 1em 1em 1em 1em;
@@ -121,6 +121,12 @@
   padding-top: 2em;
 }
 .GridProjects{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  text-align: center;
+}
+.Grid4{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -284,6 +290,12 @@
     margin-left: 0.5em;
     vertical-align: middle;
     margin: 0.2em;
+  }
+  .Grid4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
   }
 }
 /*

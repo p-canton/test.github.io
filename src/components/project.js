@@ -9,6 +9,7 @@ import Pdance from './images/Pdance.gif';
 import Pgreat from './images/Pgreat.gif';
 import Ptired from './images/Ptired.gif';
 import Pangry from './images/Pangry.gif';
+import Surprise from './images/Surprise.gif';
 import Pquestion from './images/Pquestion.gif';
 
 class Project extends Component {
@@ -81,15 +82,12 @@ class Project extends Component {
               </div>
             </div>
             <div className="GPcombine GPLeft">
-                <div className="TestBox"><Link className="LinkStyle" to="/test.github.io/survey"><p className="TextBox">
-                  <i class="fa fa-file-o" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Your Mood</p></Link>
-                </div>
-                <div className="TestBox"><p className="TextBox">
-                  <i class="fa fa-file-o" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Team Survey</p>
-                </div>
-                <div className="TestBox"><p className="TextBox">
-                  <i class="fa fa-file-o" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Private</p>
-                </div>
+                <Link className="LinkStyle TestBox" to="/test.github.io/survey" style={{width:'26em', height:'3em', backgroundColor: '#0B5ED8'}}>
+                <p className="TextBox HidePhone" style={{color:"white"}}>
+                  <i class="fa fa-file-o fa-xl" aria-hidden="true" style={{padding: '0.5em'}}></i><b>Today personal survey</b></p>
+                <p className="TextBox HidePC" style={{color:"white"}}>
+                  <i class="fa fa-file-o fa-xl" aria-hidden="true" style={{padding: '1.2em'}}></i><b>Today personal survey</b></p>
+                </Link>
             </div>
             <div style={{padding:'1em'}}>
               <div className="ProjectBox OverlayBox">
@@ -117,32 +115,8 @@ class Project extends Component {
             </div>
             <div style={{padding:'1em'}}>
             <div className="ProjectBox OverlayBox">
-              <Link className="LinkStyle" to="/test.github.io/user1"><img className="ProjectPic" src={Pquestion}/>
-                <p className="ButtonSelec">Pablo</p>
-                <div class="overlay">
-                  <p><b>"What ??"</b></p>
-                  <div class="GPLeft">
-                    <div className="TestBox" style={{width: '3.5em'}}><p className="TextBox">
-                      <i class="fa fa-coffee" aria-hidden="true"></i></p>
-                    </div>
-                    <div className="TestBox" style={{width: '3.5em'}}><p className="TextBox">
-                      <i class="fa fa-comments" aria-hidden="true"></i></p>
-                    </div>
-                    <div className="TestBox" style={{width: '3.5em'}}><p className="TextBox">
-                       <i class="fa fa-exclamation" aria-hidden="true"></i></p>
-                    </div>
-                    <div className="TestBox" style={{width: '3.5em'}}><p className="TextBox">
-                      <i class="fa fa-building" aria-hidden="true"></i></p>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
-            </div>
-            <div style={{padding:'1em'}}>
-            <div className="ProjectBox OverlayBox">
-              <Link className="LinkStyle" to="/test.github.io/user1"><img className="ProjectPic" src={Pgreat}/>
-                <p className="ButtonSelec">Pablo</p>
+              <Link className="LinkStyle" to="/test.github.io/user2"><img className="ProjectPic" src={Surprise}/>
+                <p className="ButtonSelec">Jelte</p>
                 <div class="overlay">
                   <p><b>"Feel good"</b></p>
                   <div class="GPLeft">
@@ -165,8 +139,8 @@ class Project extends Component {
             </div>
             <div style={{padding:'1em'}}>
             <div className="ProjectBox OverlayBox">
-              <Link className="LinkStyle" to="/test.github.io/user1"><img className="ProjectPic" src={Ptired}/>
-                <p className="ButtonSelec">Pablo</p>
+              <Link className="LinkStyle" to="/test.github.io/user3"><img className="ProjectPic" src={Ptired}/>
+                <p className="ButtonSelec">Olga</p>
                 <div class="overlay">
                   <p><b>"1 min more"</b></p>
                   <div class="GPLeft">
@@ -190,8 +164,8 @@ class Project extends Component {
 
             <div style={{padding:'1em'}}>
             <div className="ProjectBox OverlayBox">
-              <Link className="LinkStyle" to="/test.github.io/user1"><img className="ProjectPic" src={Pangry}/>
-                <p className="ButtonSelec">Pablo</p>
+              <Link className="LinkStyle" to="/test.github.io/user4"><img className="ProjectPic" src={Pangry}/>
+                <p className="ButtonSelec">June</p>
                 <div class="overlay">
                   <p><b>"Noooooooo"</b></p>
                   <div class="GPLeft">
@@ -212,7 +186,6 @@ class Project extends Component {
               </Link>
             </div>
             </div>
-
           </div>
         </div>
       </div>

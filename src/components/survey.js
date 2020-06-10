@@ -11,6 +11,8 @@ import Pgreat from './images/Pgreat.gif';
 import Ptired from './images/Ptired.gif';
 import Pangry from './images/Pangry.gif';
 import Pquestion from './images/Pquestion.gif';
+import Surprise from './images/Surprise.gif';
+import Terror from './images/Terror.gif';
 
 
 class User1 extends Component {
@@ -31,21 +33,36 @@ class User1 extends Component {
           </div>
         </div>
         <div className="GridMain">
-          <div className="GPcombine GPLeft">
+          <div className="GPcombine GPLeft HidePhone">
             <Link className="LinkStyle" to="/test.github.io/project">
               <p className="IconStyle"><i class="fa fa-caret-left" aria-hidden="true"> </i> Back</p>
             </Link>
           </div>
-          <div className="GPcombine">
-            <img className="ProjectPic" src={Pdance} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
-            <img className="ProjectPic" src={Pgreat} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
-            <img className="ProjectPic" src={Ptired} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
-            <img className="ProjectPic" src={Pangry} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
-          </div><div className="GPcombine">
-            <img className="ProjectPic" src={Pquestion} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
-            <img className="ProjectPic" src={Ptired} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
-            <img className="ProjectPic" src={Ptired} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
-            <img className="ProjectPic" src={Pquestion} style={{padding:'1em', height:'20vh', width:'20vh', borderRadius:'2em'}}/>
+          <div className="Grid4 GPcombine" style={{width: "90%", paddingRight:"5%", paddingLeft:"5%"}}>
+            <div>
+                <img src={Pdance} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 1</p>
+            </div>
+            <div>
+                <img src={Pgreat} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 2</p>
+            </div>
+            <div>
+                <img src={Ptired} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 3</p>
+            </div>
+            <div>
+                <img src={Pangry} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 4</p>
+            </div>
+            <div>
+                <img src={Pquestion} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 5</p>
+            </div>
+            <div>
+                <img src={Terror} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 6</p>
+            </div>
+            <div>
+                <img src={Surprise} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 7</p>
+            </div>
+            <div>
+                <img src={Pquestion} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 8</p>
+            </div>
           </div>
         </div>
         <div style={{display:'flex', justifyContent: 'center', height:'100vh'}}>
