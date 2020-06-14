@@ -10,7 +10,10 @@ import Iframe from 'react-iframe'
 import Pgreat from './images/Pgreat.gif';
 import Ptired from './images/Ptired.gif';
 import Pangry from './images/Pangry.gif';
-import Pquestion from './images/Pquestion.gif';
+import Pquestion from './images/RI.gif';
+import Disgust from './images/RD.gif';
+import Sad from './images/Sad.gif';
+import Admiration from './images/Admiration.gif';
 import Surprise from './images/Surprise.gif';
 import Terror from './images/Terror.gif';
 
@@ -40,28 +43,28 @@ class User1 extends Component {
           </div>
           <div className="Grid4 GPcombine" style={{width: "90%", paddingRight:"5%", paddingLeft:"5%"}}>
             <div>
-                <img src={Pdance} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 1</p>
+                <img src={Pdance} style={{padding:'1em', height:'12em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 1</p>
             </div>
             <div>
-                <img src={Pgreat} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 2</p>
+                <img src={Admiration} style={{padding:'1em', height:'12em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 2</p>
             </div>
             <div>
-                <img src={Ptired} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 3</p>
+                <img src={Sad} style={{padding:'1em', height:'12em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 3</p>
             </div>
             <div>
-                <img src={Pangry} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 4</p>
+                <img src={Pangry} style={{padding:'1em', height:'12em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 4</p>
             </div>
             <div>
-                <img src={Pquestion} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 5</p>
+                <img src={Disgust} style={{padding:'1em', height:'12em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 5</p>
             </div>
             <div>
-                <img src={Terror} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 6</p>
+                <img src={Terror} style={{padding:'1em', height:'12em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 6</p>
             </div>
             <div>
-                <img src={Surprise} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 7</p>
+                <img src={Surprise} style={{padding:'1em', height:'12em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 7</p>
             </div>
             <div>
-                <img src={Pquestion} style={{padding:'1em', height:'10em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 8</p>
+                <img src={Pquestion} style={{padding:'1em', height:'12em', width:'auto', borderRadius:'2em'}}/><p className="ButtonSelec">Image 8</p>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import { Link} from 'react-router-dom';
 import Philips from './images/Philips.png';
 import PhilipsLogo from './images/PhilipsLogo.png'
 import Create from './images/Create.png';
-import Pdance from './images/Pdance.gif';
+import Pdance from './images/PH.gif';
 import Iframe from 'react-iframe'
 
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';

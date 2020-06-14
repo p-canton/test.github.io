@@ -5,11 +5,13 @@ import { Link} from 'react-router-dom';
 import Philips from './images/Philips.png';
 import PhilipsLogo from './images/PhilipsLogo.png'
 import Create from './images/Create.png';
-import Pdance from './images/Pdance.gif';
+import Pdance from './images/PH.gif';
 import Pgreat from './images/Pgreat.gif';
 import Ptired from './images/Ptired.gif';
 import Pangry from './images/Pangry.gif';
-import Surprise from './images/Surprise.gif';
+import Surprise from './images/HJ.gif';
+import HRaf from './images/RH.gif';
+import HOlg from './images/HO.gif';
 import Pquestion from './images/Pquestion.gif';
 
 class Project extends Component {
@@ -139,7 +141,7 @@ class Project extends Component {
             </div>
             <div style={{padding:'1em'}}>
             <div className="ProjectBox OverlayBox">
-              <Link className="LinkStyle" to="/test.github.io/user3"><img className="ProjectPic" src={Ptired}/>
+              <Link className="LinkStyle" to="/test.github.io/user3"><img className="ProjectPic" src={HOlg}/>
                 <p className="ButtonSelec">Olga</p>
                 <div class="overlay">
                   <p><b>"1 min more"</b></p>
@@ -164,10 +166,10 @@ class Project extends Component {
 
             <div style={{padding:'1em'}}>
             <div className="ProjectBox OverlayBox">
-              <Link className="LinkStyle" to="/test.github.io/user4"><img className="ProjectPic" src={Pangry}/>
-                <p className="ButtonSelec">June</p>
+              <Link className="LinkStyle" to="/test.github.io/user4"><img className="ProjectPic" src={HRaf}/>
+                <p className="ButtonSelec">Rafael</p>
                 <div class="overlay">
-                  <p><b>"Noooooooo"</b></p>
+                  <p><b>"Hi! nice to see you"</b></p>
                   <div class="GPLeft">
                     <div className="TestBox" style={{width: '3.5em'}}><p className="TextBox">
                       <i class="fa fa-coffee" aria-hidden="true"></i></p>

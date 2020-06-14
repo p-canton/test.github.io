@@ -5,7 +5,7 @@ import { Link} from 'react-router-dom';
 import Philips from './images/Philips.png';
 import PhilipsLogo from './images/PhilipsLogo.png'
 import Create from './images/Create.png';
-import Pdance from './images/Pangry.gif';
+import Pdance from './images/RH.gif';
 import Iframe from 'react-iframe'
 
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
@@ -71,7 +71,7 @@ class User4 extends Component {
             <div className="GPcombine GridTwo">
               <div className="GPLeft">
               <Link className="LinkStyle" to="/test.github.io/project">
-                <p className="ButtonSelec"><b>June</b></p>
+                <p className="ButtonSelec"><b>Rafael</b></p>
               </Link>
               </div>
               <div className="GPRight">
