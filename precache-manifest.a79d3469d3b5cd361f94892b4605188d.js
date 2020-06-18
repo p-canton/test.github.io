@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59a92e3637533f9ba1685ba14ab463dd",
+    "revision": "9fc9499eecba07db9c3b8c59e346ef61",
     "url": "/test.github.io/index.html"
   },
   {
-    "revision": "141e28d4552c36e96275",
+    "revision": "54eff6a16e8ff83a4918",
     "url": "/test.github.io/static/css/2.d68e16da.chunk.css"
   },
   {
-    "revision": "9cb49bf8185fb603a8c8",
-    "url": "/test.github.io/static/css/main.043601c2.chunk.css"
+    "revision": "b4ef474d97e3bb206108",
+    "url": "/test.github.io/static/css/main.1613a119.chunk.css"
   },
   {
-    "revision": "141e28d4552c36e96275",
-    "url": "/test.github.io/static/js/2.2151fa10.chunk.js"
+    "revision": "54eff6a16e8ff83a4918",
+    "url": "/test.github.io/static/js/2.f4bc9e91.chunk.js"
   },
   {
     "revision": "a339eb8a2994c57eeff558b30ef1335e",
-    "url": "/test.github.io/static/js/2.2151fa10.chunk.js.LICENSE.txt"
+    "url": "/test.github.io/static/js/2.f4bc9e91.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9cb49bf8185fb603a8c8",
-    "url": "/test.github.io/static/js/main.dc415476.chunk.js"
+    "revision": "b4ef474d97e3bb206108",
+    "url": "/test.github.io/static/js/main.386c2108.chunk.js"
   },
   {
     "revision": "42899d41c70c7075b708",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9a8efb0fbfa54104b15dfd93e6e84f7e",
     "url": "/test.github.io/static/media/HO.9a8efb0f.gif"
+  },
+  {
+    "revision": "203f9edbe0830e7c886b011424b05c27",
+    "url": "/test.github.io/static/media/HapticK1.203f9edb.png"
   },
   {
     "revision": "5ff8398250835b40aa35b8add79e9a57",
