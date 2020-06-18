@@ -5,14 +5,16 @@ import { Link} from 'react-router-dom';
 import Philips from './images/Philips.png';
 import PhilipsLogo from './images/PhilipsLogo.png'
 import Create from './images/Create.png';
-import Pdance from './images/PH.gif';
+import Pdance from './images/Pdance.gif';
 import Pgreat from './images/Pgreat.gif';
 import Ptired from './images/Ptired.gif';
 import Pangry from './images/Pangry.gif';
-import Surprise from './images/HJ.gif';
+import Surprise from './images/Terror.gif';
 import HRaf from './images/RH.gif';
 import HOlg from './images/HO.gif';
 import Pquestion from './images/Pquestion.gif';
+import HapticK1 from './images/HapticK1.png';
+
 
 class Project extends Component {
   render() {
@@ -96,7 +98,7 @@ class Project extends Component {
                 <Link className="LinkStyle" to="/test.github.io/user1"><img className="ProjectPic" src={Pdance}/>
                   <p className="ButtonSelec">Pablo</p>
                   <div class="overlay">
-                    <p><b>"I am Happy"</b></p>
+                    <p><b>"Great day :D"</b></p>
                     <div class="GPLeft">
                       <div className="TestBox" style={{width: '3.5em'}}><p className="TextBox">
                         <i class="fa fa-coffee" aria-hidden="true"></i></p>
@@ -120,7 +122,7 @@ class Project extends Component {
               <Link className="LinkStyle" to="/test.github.io/user2"><img className="ProjectPic" src={Surprise}/>
                 <p className="ButtonSelec">Jelte</p>
                 <div class="overlay">
-                  <p><b>"Feel good"</b></p>
+                  <p><b>"Lot of work aaaaaa"</b></p>
                   <div class="GPLeft">
                     <div className="TestBox" style={{width: '3.5em'}}><p className="TextBox">
                       <i class="fa fa-coffee" aria-hidden="true"></i></p>
@@ -144,7 +146,7 @@ class Project extends Component {
               <Link className="LinkStyle" to="/test.github.io/user3"><img className="ProjectPic" src={HOlg}/>
                 <p className="ButtonSelec">Olga</p>
                 <div class="overlay">
-                  <p><b>"1 min more"</b></p>
+                  <p><b>"Hi! nice to see you"</b></p>
                   <div class="GPLeft">
                     <div className="TestBox" style={{width: '3.5em'}}><p className="TextBox">
                       <i class="fa fa-coffee" aria-hidden="true"></i></p>
@@ -188,6 +190,15 @@ class Project extends Component {
               </Link>
             </div>
             </div>
+
+            <div style={{padding:'1em'}}>
+            <div >
+            <p><b>Pablo: </b> Working on the design of the haptic kit interface.</p>
+            <img className="ProjectPic" style={{  borderColor:'red' }} src={HapticK1}/>
+            </div>
+            </div>
+
+
           </div>
         </div>
       </div>

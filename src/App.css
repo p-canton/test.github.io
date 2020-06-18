@@ -88,8 +88,7 @@
   padding: 0.5em;
 }
 .ButtonStyle:hover {
-  color: black;
-  font-size: 1.2em;
+  color: #0B5ED8;
 }
 .ButtonSelec{
   text-decoration: none;
@@ -106,8 +105,7 @@
   display: inline;
 }
 .IconStyle:hover {
-  color: black;
-  font-size: 1.3em;
+  color: #0B5ED8;
 }
 .SettingsBar{
   text-align: left;
