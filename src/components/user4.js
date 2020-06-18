@@ -9,12 +9,12 @@ import Pdance from './images/RH.gif';
 import Iframe from 'react-iframe'
 
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-const data = [{name: '', Team: 50, You: 50},
-              {name: 'Mon', Team: 40, You: 45},
-              {name: 'Tus', Team: 90, You: 80},
-              {name: 'Wed', Team: 50, You: 60},
-              {name: 'Thu', Team: 70, You: 50},
-              {name: 'Fri', Team: 60, You: 50},];
+const data = [{name: '', Team: 100, You: 0},
+              {name: 'Neutral', Team: 60, You: 50},
+              {name: 'Tus', Team: 50, You: 50},
+              {name: 'Wed', Team: 50, You: 50},
+              {name: 'Thu', Team: 50, You: 50},
+              {name: 'Fri', Team: 50, You: 50},];
 
 class User4 extends Component {
   render() {

@@ -194,7 +194,7 @@ class Project extends Component {
             <div style={{padding:'1em'}}>
             <div >
             <p><b>Pablo: </b> Working on the design of the haptic kit interface.</p>
-            <img className="ProjectPic" style={{  borderColor:'red' }} src={HapticK1}/>
+            <img className="ProjectPic" src={HapticK1}/>
             </div>
             </div>
 
