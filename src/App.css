@@ -13,7 +13,7 @@
   margin-bottom: 2em;
 }
 .ProjectBox:hover {
-  transform: scale(0.95);
+  transform: scale(0.98);
   box-shadow: 0px 0px 10px #888888;
 }
 .OverlayBox{
@@ -33,7 +33,7 @@
   padding: 2em
 }
 .OverlayBox:hover .overlay {
-  opacity: 1;
+  opacity: 0.9;
 }
 .ProjectPic{
   width:100%;

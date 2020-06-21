@@ -88,17 +88,17 @@ class Project extends Component {
             <div className="GPcombine GPLeft">
                 <Link className="LinkStyle TestBox" to="/test.github.io/survey" style={{width:'26em', height:'3em', backgroundColor: '#0B5ED8'}}>
                 <p className="TextBox HidePhone" style={{color:"white"}}>
-                  <i class="fa fa-file-o fa-xl" aria-hidden="true" style={{padding: '0.5em'}}></i><b>Today personal survey</b></p>
+                  <i class="fa fa-plus fa-xl" aria-hidden="true" style={{padding: '0.5em'}}></i><b>Today personal survey</b></p>
                 <p className="TextBox HidePC" style={{color:"white"}}>
-                  <i class="fa fa-file-o fa-xl" aria-hidden="true" style={{padding: '1.2em'}}></i><b>Today personal survey</b></p>
+                  <i class="fa fa-plus fa-xl" aria-hidden="true" style={{padding: '1.2em'}}></i><b>Today personal survey</b></p>
                 </Link>
             </div>
             <div style={{padding:'1em'}}>
               <div className="ProjectBox OverlayBox">
                 <Link className="LinkStyle" to="/test.github.io/user1"><img className="ProjectPic" src={Pdance}/>
-                  <p className="ButtonSelec">Pablo</p>
+                  <p className="ButtonSelec">"Great day :D"</p>
                   <div class="overlay">
-                    <p><b>"Great day :D"</b></p>
+                    <p><b>Pablo</b></p>
                     <div class="GPLeft">
                       <div className="TestBox" style={{width: '3.5em'}}><p className="TextBox">
                         <i class="fa fa-coffee" aria-hidden="true"></i></p>
@@ -120,9 +120,9 @@ class Project extends Component {
             <div style={{padding:'1em'}}>
             <div className="ProjectBox OverlayBox">
               <Link className="LinkStyle" to="/test.github.io/user2"><img className="ProjectPic" src={Surprise}/>
-                <p className="ButtonSelec">Jelte</p>
+                <p className="ButtonSelec">"Lot of work aaaaaa"</p>
                 <div class="overlay">
-                  <p><b>"Lot of work aaaaaa"</b></p>
+                  <p><b>Jelte</b></p>
                   <div class="GPLeft">
                     <div className="TestBox" style={{width: '3.5em'}}><p className="TextBox">
                       <i class="fa fa-coffee" aria-hidden="true"></i></p>
@@ -144,9 +144,9 @@ class Project extends Component {
             <div style={{padding:'1em'}}>
             <div className="ProjectBox OverlayBox">
               <Link className="LinkStyle" to="/test.github.io/user3"><img className="ProjectPic" src={HOlg}/>
-                <p className="ButtonSelec">Olga</p>
+                <p className="ButtonSelec">"Hi! nice to see you"</p>
                 <div class="overlay">
-                  <p><b>"Hi! nice to see you"</b></p>
+                  <p><b>Olga</b></p>
                   <div class="GPLeft">
                     <div className="TestBox" style={{width: '3.5em'}}><p className="TextBox">
                       <i class="fa fa-coffee" aria-hidden="true"></i></p>
@@ -169,9 +169,9 @@ class Project extends Component {
             <div style={{padding:'1em'}}>
             <div className="ProjectBox OverlayBox">
               <Link className="LinkStyle" to="/test.github.io/user4"><img className="ProjectPic" src={HRaf}/>
-                <p className="ButtonSelec">Rafael</p>
+                <p className="ButtonSelec">"Hi! nice to see you"</p>
                 <div class="overlay">
-                  <p><b>"Hi! nice to see you"</b></p>
+                  <p><b>Rafael</b></p>
                   <div class="GPLeft">
                     <div className="TestBox" style={{width: '3.5em'}}><p className="TextBox">
                       <i class="fa fa-coffee" aria-hidden="true"></i></p>

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa22a2ac5399a8324dfa64869eadb74c",
+    "revision": "06b845a6e37df9bde192d0356a474884",
     "url": "/test.github.io/index.html"
   },
   {
-    "revision": "54eff6a16e8ff83a4918",
+    "revision": "9cf50c7489f3866f2521",
     "url": "/test.github.io/static/css/2.d68e16da.chunk.css"
   },
   {
-    "revision": "8964966768806afe44c1",
-    "url": "/test.github.io/static/css/main.1613a119.chunk.css"
+    "revision": "5e06847b1f61af68f7bc",
+    "url": "/test.github.io/static/css/main.c65fce32.chunk.css"
   },
   {
-    "revision": "54eff6a16e8ff83a4918",
-    "url": "/test.github.io/static/js/2.f4bc9e91.chunk.js"
+    "revision": "9cf50c7489f3866f2521",
+    "url": "/test.github.io/static/js/2.96a0ce51.chunk.js"
   },
   {
     "revision": "a339eb8a2994c57eeff558b30ef1335e",
-    "url": "/test.github.io/static/js/2.f4bc9e91.chunk.js.LICENSE.txt"
+    "url": "/test.github.io/static/js/2.96a0ce51.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8964966768806afe44c1",
-    "url": "/test.github.io/static/js/main.40d7ca7b.chunk.js"
+    "revision": "5e06847b1f61af68f7bc",
+    "url": "/test.github.io/static/js/main.d3f232e7.chunk.js"
   },
   {
     "revision": "42899d41c70c7075b708",
@@ -36,20 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test.github.io/static/media/Create.31de3fd1.png"
   },
   {
-    "revision": "e1f8db2ce54a27434779ed5a9b40a7d7",
-    "url": "/test.github.io/static/media/HJ.e1f8db2c.gif"
-  },
-  {
     "revision": "9a8efb0fbfa54104b15dfd93e6e84f7e",
     "url": "/test.github.io/static/media/HO.9a8efb0f.gif"
   },
   {
     "revision": "203f9edbe0830e7c886b011424b05c27",
     "url": "/test.github.io/static/media/HapticK1.203f9edb.png"
-  },
-  {
-    "revision": "5ff8398250835b40aa35b8add79e9a57",
-    "url": "/test.github.io/static/media/PH.5ff83982.gif"
   },
   {
     "revision": "a065838f5ec1c09e1fa7a31c3b061f26",

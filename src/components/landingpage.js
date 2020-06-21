@@ -70,6 +70,14 @@ class LandingPage extends Component {
                 </Link>
               </div>
             </div>
+            <div className="GPcombine GPLeft">
+                <Link className="LinkStyle TestBox" to="/test.github.io/survey" style={{width:'26em', height:'3em', backgroundColor: '#0B5ED8'}}>
+                <p className="TextBox HidePhone" style={{color:"white"}}>
+                  <i class="fa fa-plus fa-xl" aria-hidden="true" style={{padding: '0.5em'}}></i><b>Today personal survey</b></p>
+                <p className="TextBox HidePC" style={{color:"white"}}>
+                  <i class="fa fa-plus fa-xl" aria-hidden="true" style={{padding: '1.2em'}}></i><b>Today personal survey</b></p>
+                </Link>
+            </div>
             <div style={{padding:'1em'}}>
               <div className="ProjectBox">
                 <Link className="LinkStyle" to="/test.github.io/project"><img className="ProjectPic" src={Philips}/>

@@ -11,10 +11,10 @@ import Iframe from 'react-iframe'
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 const data = [{name: '', Team: 100, You: 0},
               {name: 'Neutral', Team: 60, You: 50},
-              {name: 'Tus', Team: 50, You: 50},
-              {name: 'Wed', Team: 50, You: 50},
-              {name: 'Thu', Team: 50, You: 50},
-              {name: 'Fri', Team: 50, You: 50},];
+              {name: 'Neutral', Team: 50, You: 50},
+              {name: 'Neutral', Team: 50, You: 50},
+              {name: 'Neutral', Team: 50, You: 50},
+              {name: '-', Team: 50, You: 50},];
 
 class User3 extends Component {
   render() {
@@ -112,14 +112,13 @@ class User3 extends Component {
                 </Link>
               </div>
               <div className="GPcombine GPLeft">
-                  <div className="TestBox">
-                  <p className="TextBox">
+              <div className="TestBox" style={{backgroundColor: '#0B5ED8'}}><p className="TextBox" style={{color: 'white'}}>
                   <i class="fa fa-file-o" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Your Mood</p>
                   </div>
-                  <div className="TestBox"><p className="TextBox">
+                  <div className="TestBox" style={{backgroundColor: '#0B5ED8'}}><p className="TextBox" style={{color: 'white'}}>
                     <i class="fa fa-file-o" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Team Survey</p>
                   </div>
-                  <div className="TestBox"><p className="TextBox">
+                  <div className="TestBox" style={{backgroundColor: '#0B5ED8'}}><p className="TextBox" style={{color: 'white'}}>
                     <i class="fa fa-file-o" aria-hidden="true" style={{paddingRight: '0.5em'}}></i>Private</p>
                   </div>
               </div>
@@ -150,7 +149,7 @@ class User3 extends Component {
                 </div>
                 <div className="GPLeft">
                 <Link className="LinkStyle" >
-                  <p className="IconStyle"><b>Conections</b></p>
+                  <p className="IconStyle"><b>connections</b></p>
                 </Link>
                 </div>
               </div>
